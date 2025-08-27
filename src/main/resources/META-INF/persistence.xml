@@ -6,7 +6,7 @@
 <properties>
 <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://mysql-744eeba-bharathdhanavan2612-cb02.b.aivencloud.com:10392/gnanamani"/>
 <property name="jakarta.persistence.jdbc.user" value="avnadmin"/>
-<property name="jakarta.persistence.jdbc.password" value="AVNS_ceFEcw6rbutZvpVoxgG"/>
+<property name="jakarta.persistence.jdbc.password" value="{DB_PASSWORD}"/>
 <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
 <property name="hibernate.hbm2ddl.auto" value="update"/>
