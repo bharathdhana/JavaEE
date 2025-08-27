@@ -1,0 +1,31 @@
+<hibernate-configuration>
+<session-factory>
+<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property name="hibernate.connection.url">jdbc:mysql://mysql-744eeba-bharathdhanavan2612-cb02.b.aivencloud.com:10392/gnanamani</property>
+<property name="hibernate.connection.username">avnadmin</property>
+<property name="hibernate.connection.password">AVNS_ceFEcw6rbutZvpVoxgG</property>
+<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+<property name="hibernate.hbm2ddl.auto">update</property>
+<property name="hibernate.show_sql">true</property>
+<!--  Entity classes  -->
+<mapping class="hibernate.Cab"/>
+<mapping class="hibernate.Employee"/>
+<mapping class="hibernate.ExecuteHibernate"/>
+<mapping class="criteria.CriteriaExecution"/>
+<mapping class="org.example.ProcedureExecution"/>
+<mapping class="htcl.TransactionListener"/>
+<mapping class="htcl.HiberTransactExecution"/>
+<mapping class="org.example.Customer"/>
+<mapping class="embed.Professor"/>
+<mapping class="embed.Subject"/>
+<mapping class="embed.Lecturer"/>
+<mapping class="embed.EmbedExecution"/>
+<mapping class="embed.CollectionExecution"/>
+<mapping class="inheritance.Youtube"/>
+<mapping class="inheritance.Drive"/>
+<mapping class="inheritance.Google"/>
+<mapping class="inheritance.InheritanceExecution"/>
+<mapping class="lock.SavingsAccount"/>
+<mapping class="lock.LockExecution"/>
+</session-factory>
+</hibernate-configuration>
